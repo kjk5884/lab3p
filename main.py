@@ -19,7 +19,7 @@ def print_n(s,n):
     print_n(s, n-1)
 def run():
   total = int(input("Enter an int: "))
-  print(str(sum_n(total)))
+  print("sum is: " + str(sum_n(total)))
   words = input("Enter a string: ")
   print_n(words,total)
 
