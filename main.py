@@ -7,12 +7,12 @@
 
 def sum_n(n):
   if n<=0:
-    pass
+    return(0)
   else:
     return(n + sum_n(n-1))
 
 def print_n(s,n):
-  if n==0:
+  if n<=0:
     pass
   else:
     print(s)
