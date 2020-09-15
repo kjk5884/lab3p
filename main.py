@@ -20,8 +20,8 @@ def print_n(s,n):
 def run():
   total = int(input("Enter an int: "))
   print("sum is " + str(sum_n(total))+".")
-  words = input("Enter a string: ")
-  print_n(words,total)
+  letters = input("Enter a string: ")
+  print_n(letters,total)
 
 
 if __name__ == "__main__":
